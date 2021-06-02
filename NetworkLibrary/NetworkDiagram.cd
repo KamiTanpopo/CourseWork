@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NetworkLibrary.Network">
+    <Position X="0.75" Y="1" Width="1.5" />
+    <AssociationLine Name="_users" Type="NetworkLibrary.User" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.25" Y="2.547" />
+        <Point X="2.625" Y="2.547" />
+        <Point X="2.625" Y="4.812" />
+        <Point X="3.5" Y="4.812" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>gAAAACAAAAAABAAAAAAAEACAAAAAAoAAAAAABAAQAAA=</HashCode>
+      <FileName>Network.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_users" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="NetworkLibrary.User">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQUAIAAABAQAAAAEQEAAAASAAAAAAAgAAAAAEBAAAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkLibrary.UserException">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NetworkExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkLibrary.NonExistenceException">
+    <Position X="6" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NetworkExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Exception" Collapsed="true">
+    <Position X="7.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.631" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
